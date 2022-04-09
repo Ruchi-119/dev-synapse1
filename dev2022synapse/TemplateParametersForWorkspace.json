@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "dev2022synapse"
+		},
+		"dev2022synapse-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"dev2022synapse-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://dev2022synapseac.dfs.core.windows.net"
+		}
+	}
+}
